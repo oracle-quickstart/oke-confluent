@@ -9,11 +9,17 @@ This template installs Confluent Open Source version.
 This template does the following:
 
         1. Deploy a Kubernetes cluster on OCI in a new vcn (virtual cloud network), including nodepool across 3 availability domains (ADs).
+
     	2. On your local machine
+
         	a. Generate a Kube Config to access the above cluster
+
         	b. Install kubectl
+
         	c. Install helm
+
         	d. Add Confluent Helm Charts to helm repo
+
     	3. Install Confluent Platform on Kubernetes Cluster. (my-confluent-oss)
 
 
@@ -31,16 +37,15 @@ Confluent Pods running on the cluster:
 ## Prerequisites
 In addition to an active tenancy on OCI, you will need a functional installation of Terraform, and an API key for a privileged user in the tenancy.  See these documentation links for more information:
 
-	1. [Getting Started with Terraform on OCI](https://docs.cloud.oracle.com/iaas/Content/API/SDKDocs/terraformgetstarted.htm)
+1. [Getting Started with Terraform on OCI](https://docs.cloud.oracle.com/iaas/Content/API/SDKDocs/terraformgetstarted.htm)
 
-	2. [How to Generate an API Signing Key](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/apisigningkey.htm#How)
+2. [How to Generate an API Signing Key](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/apisigningkey.htm#How)
 
-	3. Within the root compartment of your tenancy, a policy statement allow service OKE to manage all-resources in tenancy must be defined to give Container Engine for Kubernetes access to resources in the tenancy.
+3. Within the root compartment of your tenancy, a policy statement allow service OKE to manage all-resources in tenancy must be defined to give Container Engine for Kubernetes access to resources in the tenancy.
 
-	4. To create and/or manage clusters, you must belong to one of the following:
-
-		- The tenancy's Administrators group.
-		- A group to which a policy grants the appropriate Container Engine for Kubernetes permissions. If you are creating or modifying clusters using the Console, policies must also grant the group the Networking permissions VCN_READ and SUBNET_READ.
+4. To create and/or manage clusters, you must belong to one of the following:
+	- The tenancy's Administrators group.
+	- A group to which a policy grants the appropriate Container Engine for Kubernetes permissions. If you are creating or modifying clusters using the Console, policies must also grant the group the Networking permissions VCN_READ and SUBNET_READ.
 
 Once the pre-requisites are in place, you will need to copy the templates from this repository to where you have Terraform installed.
 
