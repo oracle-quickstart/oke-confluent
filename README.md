@@ -54,7 +54,7 @@ Now, you'll want a local copy of this repo.  You can make that with the commands
 
 
 ## Update Template Configuration
-Update environment variables in config file: [env-vars](https://github.com/pvaldria/oci-confluent/blob/master/env-vars)  to specify your OCI account details like tenancy_ocid, user_ocid, compartment_ocid. To source this file prior to installation, either reference it in your .rc file for your shell's or run the following:
+Update environment variables in config file: [env-vars](https://github.com/pvaldria/oke-confluent/blob/master/env-vars)  to specify your OCI account details like tenancy_ocid, user_ocid, compartment_ocid. To source this file prior to installation, either reference it in your .rc file for your shell's or run the following:
 
         source env-vars
 
