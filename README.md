@@ -37,11 +37,8 @@ In addition to an active tenancy on OCI, you will need a functional installation
 
 2. [How to Generate an API Signing Key](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/apisigningkey.htm#How)
 
-3. Within the root compartment of your tenancy, a policy statement allow service OKE to manage all-resources in tenancy must be defined to give Container Engine for Kubernetes access to resources in the tenancy.
+3. Within the root compartment of your tenancy, a policy statement (allow service OKE to manage all-resources in tenancy) must be defined to give Container Engine for Kubernetes access to resources in the tenancy..
 
-4. To create and/or manage clusters, you must belong to one of the following:
-	- The tenancy's Administrators group.
-	- A group to which a policy grants the appropriate Container Engine for Kubernetes permissions. If you are creating or modifying clusters using the Console, policies must also grant the group the Networking permissions VCN_READ and SUBNET_READ.
 
 Once the pre-requisites are in place, you will need to copy the templates from this repository to where you have Terraform installed.
 
