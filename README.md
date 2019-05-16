@@ -1,4 +1,7 @@
-# oke-confluent
+# oke-quickstart-confluent
+This is a walkthrough of setting up [Confluent](https://www.confluent.io) up on [Oracle Kubernetes Engine](https://cloud.oracle.com/containers/kubernetes-engine) (OKE).  It is developed jointly by Oracle and Confluent.
+
+## Instructions
 This repo contains templates for deploying [Confluent](https://www.confluent.io)  on [OCI](https://cloud.oracle.com/cloud-infrastructure) using [Oracle Kubernetes Engine (OKE)](https://cloud.oracle.com/containers/kubernetes-engine), [Helm Charts](https://docs.helm.sh/), [Terraform](https://www.terraform.io/) and scripts (bash).
 
 Oracle Cloud Infrastructure Container Engine for Kubernetes (OKE) is a fully-managed, scalable, and highly available service that you can use to deploy your containerized applications to the cloud. Use Container Engine for Kubernetes when your development team wants to reliably build, deploy, and manage cloud-native applications. You specify the compute resources that your applications require, and Container Engine for Kubernetes provisions them on Oracle Cloud Infrastructure in an existing OCI tenancy.
