@@ -1,5 +1,5 @@
 # oke-quickstart-confluent
-This is a walkthrough of setting up [Confluent](https://www.confluent.io) on [Oracle Cloud Infrastructure Container Engine for Kubernetes (OKE)](https://cloud.oracle.com/containers/kubernetes-engine). It is developed jointly by Oracle and Confluent.
+This is a walkthrough of setting up [Confluent](https://www.confluent.io) on [Oracle Cloud Infrastructure Container Engine for Kubernetes (OKE)](https://cloud.oracle.com/containers/kubernetes-engine). It is developed jointly by Oracle and Confluent. For instructions on how to use this material and details on getting support from the vendor that maintains this material, please contact them directly.
 
 ## Instructions
 This repo contains templates for deploying [Confluent](https://www.confluent.io) on [OCI](https://cloud.oracle.com/cloud-infrastructure) using [Oracle Cloud Infrastructure Container Engine for Kubernetes (OKE)](https://cloud.oracle.com/containers/kubernetes-engine), [Helm Charts](https://docs.helm.sh/), [Terraform](https://www.terraform.io/) and scripts (bash).
